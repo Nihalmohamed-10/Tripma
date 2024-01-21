@@ -1,0 +1,103 @@
+.PassengerInfoFlex{
+    display: flex;
+}
+
+.passengerRight h3{
+    text-align: start;
+    color:  #605DEC;
+    font-weight: 600;
+}
+.passengerRight p{
+    text-align: start;
+    color: #7C8DB0;
+    font-size: 16px;
+}
+.passengerInputDivOne{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+}
+.passengerInputDivOne .passInp{
+    width: 245px;
+}
+.passengerInputDivOne input{
+    font-size: 16px;
+    display: block;
+    
+    border: 1px solid 
+    #A1B0CC;
+    height: 48px;
+    width: 70%;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 10px;
+    color: 
+    #7C8DB0;
+    font-weight: 400;
+}
+.passengerInputDivTwo{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.passengerInputDivTwo input{
+    font-size: 16px;
+    display: block;
+    border: 1px solid 
+    #A1B0CC;
+    height: 48px;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 10px;
+    color: 
+    #7C8DB0;
+    font-weight: 400;
+}
+.passInp{
+    width: 312px;
+}
+.EmergContact{
+    margin-top: 30px;
+    font-weight: 600;
+}
+.passengerInputDivThree{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.passengerInputDivThree input{
+    font-size: 16px;
+    display: block;
+    border: 1px solid 
+    #A1B0CC;
+    height: 48px;
+    width: 100%;
+    border-radius: 4px;
+    margin-top: 20px;
+    padding: 10px;
+    color: 
+    #7C8DB0;
+    font-weight: 400;
+}
+.bagInfo{
+    margin-top: 50px;
+    font-weight: 600;
+}
+.eachPassngrPara{
+    margin-top: 20px;
+}
+.PassengerInfo button{
+    background-color: #c6cfe1;
+    border: 1px solid rgb(195, 192, 192);
+    width: 105px;
+    height: 40px;
+    padding: 10px;
+}
+
+.departingLeft .depPrcieDiv{
+    margin-top: 177px;
+    
+}

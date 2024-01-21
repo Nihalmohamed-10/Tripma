@@ -1,0 +1,78 @@
+.japanPlaceDiv {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .japanPlaceDiv h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6e7491;
+  }
+  .japanPlaceDiv span a {
+    color: #605DEC;
+    font-size: 18px;
+    font-weight: 600;
+  }
+.placesinjapan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .japanCards {
+    border-radius: 6px;
+    margin-top: 30px;
+    width: 383px;
+    border: 1px solid #cbd4e6;
+    box-shadow: 5% 5% 0 0 #000000, 10% 10% 0 0 #1c054d;
+  }
+  .japanCardImg {
+    width: 100%;
+  }
+  .japanCardImg img {
+    width: 100%;
+    height: 410px;
+    display: block;
+    border-radius: 6px;
+  }
+  .japanLoc {
+    margin-top: 8px;
+    padding: 9px 19px 10px 14px;
+  
+    display: flex;
+    justify-content: space-between;
+  }
+  .japanLoc p {
+    color: #6e7491;
+  }
+  .japanLoc p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #605DEC;
+  }
+  .cardHighlight p {
+    padding: 4px 10px 10px 14px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7491;
+    text-align: start;
+  }
+  .all {
+    width: 60px;
+  }
+  .all a {
+    padding-right: 10px;
+    color: #A1B0CC;
+  }
+  
+  .vector {
+    width: 18px;
+  }
+
+  @media all and (max-width:1051px){
+    .placesinjapan{
+        justify-content: space-around;
+        align-items: center;
+      }
+  }
+  
+ 

@@ -1,0 +1,149 @@
+.departingLeft{
+    width: 100%;
+    padding: 20px;
+}
+.departingPriceDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+    /* border: 1px solid grey; */
+}
+.departingPrice{
+    padding: 8px;
+    margin-top: 234px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 1px solid #E9E8FC;
+    width: 350px;
+}
+.departName{
+    color: #27273F;
+}
+.departFig{
+    color: #7C8DB0;
+}
+.departDuration{
+    color: #27273F;
+}
+.departTime{
+    color: #27273F;
+}
+.departStopTime{
+    color: #7C8DB0;
+}
+.departSubtotal{
+    margin-top: 10px;
+    color: 27273F;
+    font-weight: 600;
+    display: flex;
+    text-align: end;
+    justify-content: flex-end;
+    gap: 20px;
+    line-height: 24px;
+        padding: 8px;
+        margin-left: 30px;
+        width: 350px;
+        text-align: end;
+}
+.departSubtotal p{
+    color: 27273F;
+    font-weight: 600;
+}
+.departButton button{
+    border: 1px solid #605DEC;
+    color: #605DEC;
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.departButton button:hover{
+    color: white;
+    background-color: #605DEC;
+}
+.departButton{
+    margin-right: auto;
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+}
+.returningPrice{
+    padding: 8px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: 1px solid #E9E8FC;
+    width: 350px;
+}
+
+@media all and (max-width:1051px){
+    .departingPrice{
+        margin: auto;
+        margin-top: 70px;
+       
+    }
+    .returningPrice{
+        margin: auto;
+       
+    }
+    .departSubtotal{
+        margin: auto;
+    }
+    .departButton{
+        margin: auto;
+        width: 350px;
+    }
+}
+
+@media all and (max-width:361px){
+    .departingPriceDiv{
+        align-items: center;
+    }
+    .departingPrice{
+      width: 295px;
+       
+    }
+    .returningPrice{
+        width: 295px;
+         
+      }
+    .departSubtotal{
+        width: 295px;
+    }
+    .departButton{
+        width: 295px;
+    }
+    .departName{
+        font-size: smaller;
+    }
+    .departFig{
+        font-size: smaller;
+    }
+    .departDuration{
+        font-size: smaller;
+    }
+    .departTime{
+        font-size: smaller;
+    }
+    .departStopTime{
+        font-size: smaller;
+    }
+}
+
+@media all and (max-width:361px){
+    .departingPriceDiv{
+        align-items: center;
+    }
+    .departingPrice{
+      width: 266px;
+       
+    }
+    .returningPrice{
+        width: 266px;
+         
+      }
+    .departSubtotal{
+        width: 266px;
+    }
+    .departButton{
+        width: 266px;
+    }
+}

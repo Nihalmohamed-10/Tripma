@@ -1,0 +1,94 @@
+.DepartingFlightSelect{
+    margin-top: 20px;
+    border: 1px solid rgb(218, 217, 217);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.flightLink :hover{
+    background-color: rgb(231, 231, 230);
+    border-radius: 5px;
+}
+.flightDetail{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(218, 217, 217); 
+}
+.flightListContainer {
+    width: 812px;
+    max-height: 400px;
+    overflow-y: auto; 
+    scrollbar-width: thin; 
+  scrollbar-color: transparent transparent; 
+  }
+  div.flightListContainer::-webkit-scrollbar {
+    width: 0;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: transparent; 
+  }
+.nameNdDuration{
+    text-align: start
+}
+.flightDuration{
+    color: #27273F;
+}
+.flightName{
+    color: #7C8DB0;
+    font-size: 14px;
+}
+.flightTime{
+    color: #27273F;
+}
+.flightStop{
+    color: #27273F;
+}
+.flightStopTime{
+    color: #7C8DB0;
+    font-size: 14px;
+
+}
+.ticketPrice{
+    color: #27273F;
+}
+.ticketRound{
+    color: #7C8DB0;
+    font-size: 14px;
+}
+.flightStopNdTime{
+    text-align: start;
+}
+@media all and (max-width:1051px){
+    
+    .flightListContainer{
+      width: 100%;
+    }
+  }
+
+  @media all and (max-width:481px){
+    
+    .flightTime{
+        font-size: 14px;
+    }
+
+  }
+  @media all and (max-width:361px){
+    
+    .flightDuration{
+        font-size: small;
+    }
+    .flightStop{
+        font-size: small;
+    }
+    .flightStopTime{
+        font-size: smaller;
+    }
+    .flightTime{
+        font-size: small;
+    }
+  }

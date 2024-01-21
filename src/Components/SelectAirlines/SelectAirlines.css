@@ -1,0 +1,167 @@
+.departingFlex{
+    display: flex;
+    justify-content: space-between;
+}
+/* .airlinesInputs{
+    margin-left: 56px;
+    margin-top: 30px;
+} */
+
+/* .airLinepageinputs{
+   
+} */
+/* .Inputs{
+    width: 150px;
+} */
+/* .airLinepageinputs select{
+    width: 150px;
+} */
+.map img{
+    width: 100%;
+    display: block;
+}
+.map{
+    margin-top: 40px;
+    width: 100%;
+}
+.departingPlaneP{
+    text-align: start;
+    margin-top: 70px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #6E7491;
+    padding-bottom: 10px;
+}
+.departingPlaneP span{
+    color: #605DEC;
+    font-weight: 600;
+}
+.showAllFlights{
+    margin-top: 20px;
+    width: 140px;
+    margin-left: auto;
+    /* padding: 10px 0px 10px 0px; */
+  }
+.showAllFlights button{
+    border: 1px solid #605DEC;
+    padding: 11px;
+    color: #605DEC;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.showAllFlights button:hover{
+    color: white;
+    background-color: #605DEC;
+}
+
+.priceGridp{
+    text-align: start;
+    margin-top: 70px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #6E7491;
+    padding-bottom: 10px;
+}
+.DepartingLeft{
+    margin-top: 156px;
+    margin-left: 30px;
+  }
+/* .priceGridp span{
+    color: #605DEC;
+    font-weight: 600;
+} */
+.priceHistory{
+    text-align: start;
+    margin-top: 68px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #6E7491;
+    padding-bottom: 10px;
+}
+.graph img{
+    width: 100%;
+    display: block;
+}
+.graph{
+    width: 327px;
+}
+.PassengerInfo{
+
+    margin-right: auto;
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end;
+
+}
+.PassengerInfo button{
+    background-color: #605DEC;
+    color: white;
+    padding: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.PassengerInfo button:hover{
+    background-color: white;
+    color: #605DEC;
+}
+@media all and (max-width:1051px){
+    .PassengerInfo{
+        width: 626px;
+
+    }
+  
+
+@media all and (max-width:981px){
+    .DepartingLeft{
+      margin-top: 12px;
+      margin-left: 0px;
+    }
+    .PassengerInfo{
+        width: 600px;
+
+    }
+  }
+  @media all and (max-width:771px){
+    
+    .PassengerInfo{
+        width: 500px;
+
+    }
+  }
+  @media all and (max-width:641px){
+    
+    .PassengerInfo{
+        width: 439px;
+
+    }
+  }
+  @media all and (max-width:481px){
+    
+    .PassengerInfo{
+        width: 370px;
+
+    }
+  }
+  @media all and (max-width:361px){
+    .map img{
+        height: 99px;
+        object-fit: cover;
+    }
+    .PassengerInfo{
+        width: 276px;
+
+    }
+}
+@media all and (max-width:321px){
+    .graph{
+        width: 280px;
+    }
+    .graphDiv{
+        width: 283px;
+    }
+    .PassengerInfo{
+        width: 257px;
+
+    }
+}
+}

@@ -1,0 +1,29 @@
+.priceNdBuy{
+   
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.priceNdBuy p{
+    color: #6E7491;
+    font-weight: 500;
+}
+.buySoon button{
+    padding: 7px;
+    color: white;
+    margin-left: 10px;
+    border-radius: 3px;
+    background-color: #5CD6C0;
+}
+.recommendPara{
+    color: #6E7491;
+    text-align: start;
+}
+.priceRatingPara{
+    margin-top: 10px;
+    color: #A1B0CC;
+    text-align: start;
+}
+.priceNdBuyDiv{
+    margin-top: 30px;
+}

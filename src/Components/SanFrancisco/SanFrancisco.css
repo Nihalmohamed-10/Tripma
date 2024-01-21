@@ -1,0 +1,87 @@
+.sanFrancisco {
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .all {
+    width: 60px;
+  }
+  .all a {
+    padding-right: 10px;
+  }
+  
+  .vector {
+    width: 18px;
+  }
+  .sanFrancisco h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #6e7491;
+  }
+  .sanFrancisco span a {
+    color: #605dec;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .sanFrancisco p a {
+    color: #a1b0cc;
+    font-weight: 600;
+  }
+  .sanFranciscoCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .sanCard {
+    border-radius: 6px;
+    margin-top: 30px;
+    width: 383px;
+    border: 1px solid #cbd4e6;
+    box-shadow: 5% 5% 0 0 #000000, 10% 10% 0 0 #1c054d;
+  }
+  .sanCardImg {
+    width: 100%;
+  }
+  .sanCardImg img {
+    width: 100%;
+    height: 410px;
+    display: block;
+    border-radius: 6px;
+  }
+  /* .lastDivCard {
+    width: 100%;
+  } */
+  .sanLoc {
+    padding: 9px 19px 10px 14px;
+  
+    display: flex;
+    justify-content: space-between;
+  }
+  .sanLoc p {
+    color: #6e7491;
+  }
+  .sanLoc span a {
+    color: #605dec;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .sanLoc p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #6e7491;
+  }
+  .cardHighlight p {
+    padding: 4px 10px 10px 14px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6e7491;
+    text-align: start;
+  }
+
+  @media all and (max-width:1051px){
+    .sanFranciscoCards{
+        justify-content: space-around;
+        align-items: center;
+      }
+  }
+  
